@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0F6A352A5C6F0300507835 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F6A342A5C6F0300507835 /* MoreViewController.swift */; };
 		6CB7BA822A0B627F0077D213 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB7BA812A0B627F0077D213 /* UIView+Extension.swift */; };
 		6CB90BF7296EF779006B4A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB90BF6296EF779006B4A53 /* AppDelegate.swift */; };
 		6CB90BF9296EF779006B4A53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB90BF8296EF779006B4A53 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C0F6A342A5C6F0300507835 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		6CB7BA812A0B627F0077D213 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		6CB90BF3296EF779006B4A53 /* Bitcoin Precio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Precio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB90BF6296EF779006B4A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				6CB90C0C296EF982006B4A53 /* Modelos */,
 				6CB90C0D296EFA0B006B4A53 /* BitcoinManager.swift */,
 				6CB7BA812A0B627F0077D213 /* UIView+Extension.swift */,
+				6C0F6A342A5C6F0300507835 /* MoreViewController.swift */,
 			);
 			path = "Bitcoin Precio";
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0F6A352A5C6F0300507835 /* MoreViewController.swift in Sources */,
 				6CB7BA822A0B627F0077D213 /* UIView+Extension.swift in Sources */,
 				6CB90C0B296EF97E006B4A53 /* Bitcoin.swift in Sources */,
 				6CB90BFB296EF779006B4A53 /* ViewController.swift in Sources */,
@@ -320,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rotadevsolutions.Bitcoin-Precio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -349,7 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rotadevsolutions.Bitcoin-Precio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
