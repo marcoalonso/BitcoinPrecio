@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var fechaBitcoinLabel: UILabel!
     @IBOutlet weak var precioBitcoinLabel: UILabel!
     
-    var tipoCambio = ["USD", "MXN", "EUR", "JPY", "BRL", "CAD", "RUB","INR","SEK"]
+    var tipoCambio = ["USD", "MXN", "EUR", "JPY", "BRL", "CAD", "RUB","INR","SEK","NOK"]
     
     var manger = BitcoinManager()
     
@@ -109,6 +109,8 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
             monedaLabel.text = "Rupias Indias"
         case "SEK":
             monedaLabel.text = "Coronas Suecas"
+        case "NOK":
+            monedaLabel.text = "Coronas Noruegas"
         default:
             monedaLabel.text = "Moneda sin valor"
         }
