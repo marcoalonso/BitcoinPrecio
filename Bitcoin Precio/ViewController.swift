@@ -106,7 +106,7 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         case "RUB":
             monedaLabel.text = "Rublos Rusos"
         default:
-            monedaLabel.text = "$"
+            monedaLabel.text = "Moneda sin valor"
         }
     }
     
