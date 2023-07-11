@@ -72,19 +72,11 @@
 				6CB90C01296EF77C006B4A53 /* LaunchScreen.storyboard */,
 				6CB90C04296EF77C006B4A53 /* Info.plist */,
 				6CB90C0A296EF97E006B4A53 /* Bitcoin.swift */,
-				6CB90C0C296EF982006B4A53 /* Modelos */,
 				6CB90C0D296EFA0B006B4A53 /* BitcoinManager.swift */,
 				6CB7BA812A0B627F0077D213 /* UIView+Extension.swift */,
 				6C0F6A342A5C6F0300507835 /* MoreViewController.swift */,
 			);
 			path = "Bitcoin Precio";
-			sourceTree = "<group>";
-		};
-		6CB90C0C296EF982006B4A53 /* Modelos */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modelos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
