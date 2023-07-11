@@ -24,7 +24,9 @@ class MoreViewController: UIViewController {
     Action(name: "Califica la aplicación", action: "califica", icon: "star.leadinghalf.filled"),
     Action(name: "Conocer más sobre nosotros", action: "seguir", icon: "hand.thumbsup"),
     Action(name: "Desarrollador", action: "developer", icon: "person"),
-    Action(name: "Mandar Correo", action: "correo", icon: "mail")
+    Action(name: "Mandar Correo", action: "correo", icon: "mail"),
+    Action(name: "Página Oficial", action: "pagina", icon: "globe"),
+    Action(name: "Estadísticas", action: "estadisticas", icon: "chart.xyaxis.line")
     ]
 
     @IBOutlet weak var darkModeSwitch: UISwitch!
@@ -160,43 +162,39 @@ extension MoreViewController: UITableViewDelegate, UITableViewDataSource {
         
         switch actions[indexPath.row].action {
         case "sugerencia":
-            sugerencia()
+            openWebPage(url: "https://forms.gle/kAqAXKMPYFdHAmQx7")
             
         case "califica":
             califica()
             
-            
         case "seguir":
-            showRedes()
+            openWebPage(url: "https://mobilestudio.mx/")
             
         case "developer":
-            showDeveloper()
+            openWebPage(url: "https://github.com/marcoalonso")
             
         case "correo":
             showMail()
+            
+        case "pagina":
+            openWebPage(url: "https://bitcoin.org/es/")
            
+        case "estadisticas":
+            openWebPage(url: "https://coinmarketcap.com/es/currencies/bitcoin/")
+            
         default:
             print("Default")
         }
     }
     
-    private func sugerencia(){
-        guard let url = URL(string: "https://forms.gle/kAqAXKMPYFdHAmQx7") else { return }
-        let vcSS = SFSafariViewController(url: url)
-        present(vcSS, animated: true)
-    }
     
-    private func showRedes(){
-        guard let url = URL(string: "https://mobilestudio.mx/") else { return }
+    
+    private func openWebPage(url: String){
+        guard let url = URL(string: url) else { return }
         let vcSS = SFSafariViewController(url: url)
         present(vcSS, animated: true)
     }
-    private func showDeveloper(){
-        guard let url = URL(string: "https://github.com/marcoalonso") else { return }
-        let vcSS = SFSafariViewController(url: url)
-        present(vcSS, animated: true)
-    }
-
+   
     private func califica(){
         if let calificaURL = URL(string: "itms-apps://itunes.apple.com/app/6448973145?action=write-review") {
             let appCalifica : UIApplication = UIApplication.shared
