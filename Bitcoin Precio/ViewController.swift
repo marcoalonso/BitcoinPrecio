@@ -94,7 +94,7 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         case "RON":
             monedaLabel.text = "Leus Romanos"
         case "USD":
-            monedaLabel.text = "Dólares stadounidenses"
+            monedaLabel.text = "Dólares Estadounidenses"
         case "MXN":
             monedaLabel.text = "Pesos Mexicanos"
         case "EUR":
