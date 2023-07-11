@@ -138,7 +138,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Precio Bitcoin" id="L8H-kJ-vup">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="info.circle" catalog="system" id="t80-4E-Kc4">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="info.square" catalog="system" id="t80-4E-Kc4">
                             <color key="tintColor" systemColor="labelColor"/>
                             <connections>
                                 <segue destination="8KX-YF-deS" kind="presentation" modalPresentationStyle="fullScreen" id="am3-GL-610"/>
@@ -320,7 +320,7 @@
     <resources>
         <image name="bit" width="200" height="200"/>
         <image name="degradado" width="360" height="240"/>
-        <image name="info.circle" catalog="system" width="128" height="123"/>
+        <image name="info.square" catalog="system" width="128" height="114"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
